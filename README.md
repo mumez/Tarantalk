@@ -89,7 +89,7 @@ primaryIndex select: #>= having: #('Smalltalkユーザ会').
   " => #('ec599e128831b282f6f7a833834c90a3eb2e61453e5757ca3c2bc8a26e94d7c2f76bd6a7ce33df2427f3821e44a12d26781d39eac6782b59a649950ea59f9e13')"
 ```
 
-## Calling Lua stored function
+### Calling Lua stored function
 
 ```Lua
 function bookmarkUrls()
@@ -105,4 +105,14 @@ box.schema.func.create('bookmarkUrls')
 ```Smalltalk
 tarantalk call: 'bookmarkUrls'.
   " => #(#('http://pharo.org' 'http://files.pharo.org/books/' 'http://www.smalltalk-users.jp' 'https://tarantool.org'))"
+```
+
+### Releasing
+
+```Smalltalk
+tarantalk release.
+
+"OR"
+
+TrTarantalk releaseAll.
 ```

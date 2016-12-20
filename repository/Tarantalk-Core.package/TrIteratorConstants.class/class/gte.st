@@ -1,0 +1,3 @@
+alias
+gte
+	^self greaterThanEqual

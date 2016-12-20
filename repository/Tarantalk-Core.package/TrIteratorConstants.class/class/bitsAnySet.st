@@ -1,0 +1,3 @@
+accessing
+bitsAnySet
+	^8

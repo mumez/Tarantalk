@@ -1,0 +1,3 @@
+field-types
+number
+	^'number'

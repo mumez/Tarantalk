@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"connect:" : "MasashiUmezawa 12/16/2016 22:29",
+		"initialize" : "MasashiUmezawa 11/6/2016 00:04",
+		"named:" : "MasashiUmezawa 11/6/2016 14:46",
+		"named:ifAbsentPut:" : "MasashiUmezawa 11/6/2016 14:46",
+		"named:put:" : "MasashiUmezawa 11/6/2016 14:45",
+		"releaseAll" : "MasashiUmezawa 11/6/2016 16:20",
+		"removeNamed:" : "MasashiUmezawa 11/6/2016 16:18",
+		"talksDict" : "MasashiUmezawa 11/6/2016 00:04" },
+	"instance" : {
+		"auth:password:" : "MasashiUmezawa 11/5/2016 23:57",
+		"ensureSpaceNamed:" : "MasashiUmezawa 11/6/2016 00:06",
+		"ensureTempSpaceNamed:" : "MasashiUmezawa 11/6/2016 00:07",
+		"indexClass" : "MasashiUmezawa 11/5/2016 23:55",
+		"initialize:" : "MasashiUmezawa 12/16/2016 22:31",
+		"printOn:" : "MasashiUmezawa 11/6/2016 16:23",
+		"release" : "MasashiUmezawa 11/8/2016 22:38",
+		"schema" : "MasashiUmezawa 11/9/2016 23:40",
+		"schemaClass" : "MasashiUmezawa 11/5/2016 23:55",
+		"spaceClass" : "MasashiUmezawa 11/5/2016 23:56",
+		"spaces" : "MasashiUmezawa 11/5/2016 23:59",
+		"stick" : "MasashiUmezawa 11/5/2016 23:54",
+		"stickClass" : "MasashiUmezawa 11/5/2016 23:55",
+		"unregister" : "MasashiUmezawa 11/8/2016 22:37",
+		"userSpaces" : "MasashiUmezawa 11/5/2016 23:58" } }

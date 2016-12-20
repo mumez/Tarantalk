@@ -1,0 +1,14 @@
+{
+	"category" : "Tarantalk-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TrSchema",
+	"pools" : [
+		 ],
+	"super" : "TrObject",
+	"type" : "normal" }

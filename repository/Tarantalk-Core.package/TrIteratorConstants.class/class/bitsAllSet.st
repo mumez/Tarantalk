@@ -1,0 +1,3 @@
+accessing
+bitsAllSet
+	^7

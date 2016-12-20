@@ -1,0 +1,3 @@
+alias
+<= arg
+	^self lte

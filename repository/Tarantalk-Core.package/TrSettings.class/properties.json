@@ -1,0 +1,14 @@
+{
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TrSettings",
+	"pools" : [
+		 ],
+	"super" : "SkSettings",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfTarantalk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfTarantalk",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

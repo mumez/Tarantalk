@@ -1,0 +1,3 @@
+accessing
+bitsAllNotSet
+	^9

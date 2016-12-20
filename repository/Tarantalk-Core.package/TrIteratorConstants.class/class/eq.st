@@ -1,0 +1,3 @@
+alias
+eq
+	^self equal

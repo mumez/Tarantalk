@@ -1,0 +1,3 @@
+alias
+lt
+	^self lessThan

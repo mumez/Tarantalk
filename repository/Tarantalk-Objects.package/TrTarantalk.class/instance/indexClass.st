@@ -1,0 +1,3 @@
+factory
+indexClass
+	^TrIndex

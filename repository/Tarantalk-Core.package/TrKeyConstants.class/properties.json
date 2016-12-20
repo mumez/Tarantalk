@@ -1,0 +1,14 @@
+{
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TrKeyConstants",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

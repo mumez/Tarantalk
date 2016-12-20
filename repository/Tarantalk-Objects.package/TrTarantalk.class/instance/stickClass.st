@@ -1,0 +1,3 @@
+factory
+stickClass
+	^TrStick

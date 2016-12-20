@@ -1,0 +1,3 @@
+counting
+count
+	^self countHaving: #()

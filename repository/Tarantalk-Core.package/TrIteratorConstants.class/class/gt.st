@@ -1,0 +1,3 @@
+alias
+gt
+	^self greaterThan

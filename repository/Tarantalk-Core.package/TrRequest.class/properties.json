@@ -1,0 +1,19 @@
+{
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [
+		"mutex",
+		"idCounter" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"settings",
+		"headerMap",
+		"bodyMap",
+		"successBlock",
+		"failureBlock" ],
+	"name" : "TrRequest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

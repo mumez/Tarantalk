@@ -1,0 +1,17 @@
+{
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"operator",
+		"index",
+		"value",
+		"builder" ],
+	"name" : "TrUpdateOperation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

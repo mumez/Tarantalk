@@ -1,0 +1,14 @@
+{
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"decoder" ],
+	"name" : "TrResponseReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

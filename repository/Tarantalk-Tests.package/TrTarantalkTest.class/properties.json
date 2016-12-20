@@ -1,0 +1,14 @@
+{
+	"category" : "Tarantalk-Tests",
+	"classinstvars" : [
+		"uriString" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TrTarantalkTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

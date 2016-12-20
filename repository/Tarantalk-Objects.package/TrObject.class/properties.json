@@ -1,0 +1,15 @@
+{
+	"category" : "Tarantalk-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stick",
+		"parent" ],
+	"name" : "TrObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

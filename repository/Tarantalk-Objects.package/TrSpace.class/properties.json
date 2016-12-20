@@ -1,0 +1,20 @@
+{
+	"category" : "Tarantalk-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"owner",
+		"name",
+		"engine",
+		"isTemporary",
+		"fieldCount",
+		"formatMap" ],
+	"name" : "TrSpace",
+	"pools" : [
+		 ],
+	"super" : "TrObject",
+	"type" : "normal" }

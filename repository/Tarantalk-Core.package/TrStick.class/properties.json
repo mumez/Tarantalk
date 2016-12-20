@@ -1,0 +1,21 @@
+{
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"salt",
+		"userName",
+		"selectLimit",
+		"requestWriter",
+		"responseReader",
+		"requestsMap",
+		"onGreetingEndedBlock",
+		"passwordProvider" ],
+	"name" : "TrStick",
+	"pools" : [
+		 ],
+	"super" : "SkStick",
+	"type" : "normal" }

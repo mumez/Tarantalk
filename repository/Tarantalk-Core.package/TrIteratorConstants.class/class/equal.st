@@ -1,0 +1,3 @@
+accessing
+equal
+	^0

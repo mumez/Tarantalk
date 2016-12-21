@@ -5,7 +5,7 @@ Tarantalk
 
 Tarantalk = Smalltalk + Lua + Tuple DB.
 
-Enjoy its chemistry effects on such dynamic environment. 
+Enjoy its chemical effects on such a dynamic environment. 
 
 ## Installation ##
 
@@ -72,9 +72,17 @@ primaryIndex selectHaving: #('Pharo').
   " => #(#('Pharo' 'http://pharo.org' 'Pharo main site'))"
 ```
 ```Smalltalk
-"Find tuples with a condition.
+"Find tuples with a condition."
 primaryIndex select: #>= having: #('Smalltalkユーザ会').
   " => #(#('Smalltalkユーザ会' 'http://www.smalltalk-users.jp' 'Japan Smalltalk users group') #('Tarantool' 'https://tarantool.org' 'Tarantool main site'))"
+```
+
+### Updating tuples
+```Smalltalk
+"Update the first field in a tuple"
+primaryIndex updateHaving: #('Pharo books') performing: [:row | row @ 1 assign: 'http://books.pharo.org'].
+primaryIndex selectHaving: #('Pharo books').
+  " => #(#('Pharo books' 'http://books.pharo.org' 'Pharo on-line books'))"
 ```
 
 ### Evaluating Lua expression

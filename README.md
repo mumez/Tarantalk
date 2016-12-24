@@ -127,7 +127,7 @@ TrTarantalk releaseAll.
 
 ## Performance
 
-I tried a simple micro benchmark and compared the results with my Redis client - [RediStick](http://smalltalkhub.com/#!/~MasashiUmezawa/RediStick).
+I tried a simple micro benchmark and compared the results with my Redis client - [RediStick](http://smalltalkhub.com/#!/%7EMasashiUmezawa/RediStick).
 
 Tarantalk outperformed RediStick well (more than 5x faster).
 I think the reason is partly related to the async-write API of Tarantool. But it is still remarkable.

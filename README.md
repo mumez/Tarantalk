@@ -124,3 +124,73 @@ tarantalk release.
 
 TrTarantalk releaseAll.
 ```
+
+## Performance
+
+I tried a simple micro benchmark and compared the results with my Redis client - [RediStick](http://smalltalkhub.com/#!/~MasashiUmezawa/RediStick).
+
+Tarantalk outperformed RediStick well (more than 5x faster).
+I think the reason is partly related to the async-write API of Tarantool. But it is still remarkable.
+
+### The results
+On mid 2013 MacBook Air (1.7GHz Core i7, 8G RAM).
+|  | Tarantalk | RediStick |
+|-----------|-----------|-----------|
+| Simple Get/Put round-trips (1st try to an empty space) | 0:00:00:03.104 | 0:00:00:14.449 |
+| Simple Get/Put round-trips (2nd try) | 0:00:00:03.184 | 0:00:00:15.291 |
+| Deleting keys | 0:00:00:00.931 | 0:00:00:07.166 |
+
+### Tarantalk code
+```Smalltalk
+tarantalk := TrTarantalk connect: 'taran:talk@localhost:3301'.
+space := tarantalk ensureSpaceNamed: 'perf'.
+space ensurePrimaryIndex.
+```
+
+```Smalltalk
+"Simple Get/Put round-trips"
+[  
+  1 to: 10000 do: [:idx | | ret newVal |
+    newVal := idx asString.
+    space at: idx put: newVal.
+    ret := space at: idx.
+    (ret = newVal) ifFalse: [ self halt ]. "for checking that value is correctly stored"
+  ]
+] timeToRun.
+```
+```Smalltalk
+"Deleting keys"
+[  
+  1 to: 10000 do: [:idx | 
+    space removeKey: idx
+  ]
+] timeToRun.
+```
+
+### RediStick code
+
+```Smalltalk
+stick := RsRediStick targetUrl: 'sync://localhost'.
+stick connect.
+redisEndPoint := stick endpoint.
+```
+
+```Smalltalk
+"Simple Get/Put round-trips"
+[  
+  1 to: 10000 do: [:idx | | ret newVal |
+    newVal := idx asString.
+    redisEndPoint set: idx value: newVal.
+    ret := redisEndPoint get: idx.
+    (ret = newVal) ifFalse: [ self halt ]. "for checking that value is correctly stored"
+  ]
+] timeToRun.
+```
+```Smalltalk
+"Deleting keys"
+[  
+  1 to: 10000 do: [:idx |
+    redisEndPoint del: {idx}.
+  ].
+] timeToRun.
+```

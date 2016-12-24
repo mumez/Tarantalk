@@ -134,6 +134,7 @@ I think the reason is partly related to the async-write API of Tarantool. But it
 
 ### The results
 On mid 2013 MacBook Air (1.7GHz Core i7, 8G RAM).
+
 |  | Tarantalk | RediStick |
 |-----------|-----------|-----------|
 | Simple Get/Put round-trips (1st try to an empty space) | 0:00:00:03.104 | 0:00:00:14.449 |

@@ -1,0 +1,3 @@
+factory
+createEncoder
+	^MpEncoder new

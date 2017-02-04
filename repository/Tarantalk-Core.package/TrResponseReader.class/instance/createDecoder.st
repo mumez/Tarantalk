@@ -1,0 +1,3 @@
+factory
+createDecoder
+	^MpDecoder new

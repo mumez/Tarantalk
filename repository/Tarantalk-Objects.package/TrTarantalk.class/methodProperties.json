@@ -1,6 +1,8 @@
 {
 	"class" : {
 		"connect:" : "MasashiUmezawa 12/16/2016 22:29",
+		"connect:shuffled:" : "MasashiUmezawa 3/29/2017 00:57",
+		"connect:tagged:" : "MasashiUmezawa 3/29/2017 01:00",
 		"initialize" : "MasashiUmezawa 11/6/2016 00:04",
 		"named:" : "MasashiUmezawa 11/6/2016 14:46",
 		"named:ifAbsentPut:" : "MasashiUmezawa 11/6/2016 14:46",

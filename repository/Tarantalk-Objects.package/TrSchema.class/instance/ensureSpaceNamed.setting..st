@@ -1,7 +1,4 @@
 actions-space
 ensureSpaceNamed: spaceName setting: creationSettingsBlock
-	^self spaceNamed: spaceName ifNone: [ 
-		(self createSpaceNamed: spaceName setting: creationSettingsBlock) valueThen: [ :val |
-			self spaceAt: (self safeElement: val)	
-		 ]
-	]
+	^(self createSpaceNamed: spaceName setting: [:opts | opts ifDuplicateUse: true]) 
+		valueThen: [ :ret | self spaceAt: ret first ]

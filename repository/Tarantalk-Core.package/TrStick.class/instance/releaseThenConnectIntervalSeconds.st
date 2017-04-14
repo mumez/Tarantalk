@@ -1,0 +1,3 @@
+accessing
+releaseThenConnectIntervalSeconds
+	^self settings reconnectIntervalSeconds

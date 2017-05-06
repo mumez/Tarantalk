@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"auth:password:" : "MasashiUmezawa 10/23/2016 15:16",
+		"auth:password:" : "MasashiUmezawa 5/6/2017 23:19",
 		"call:" : "MasashiUmezawa 10/23/2016 21:05",
 		"call:arguments:" : "MasashiUmezawa 10/23/2016 15:16",
 		"deleteAt:indexAt:having:" : "MasashiUmezawa 10/23/2016 15:16",
@@ -11,11 +11,12 @@
 		"eval:arguments:" : "MasashiUmezawa 10/23/2016 15:16",
 		"getAt:having:" : "MasashiUmezawa 10/30/2016 00:26",
 		"getAt:indexAt:having:" : "MasashiUmezawa 12/6/2016 00:03",
-		"handleResponse:" : "MasashiUmezawa 10/23/2016 15:15",
+		"handleResponse:" : "MasashiUmezawa 5/6/2017 23:54",
 		"hasSalt" : "MasashiUmezawa 9/11/2016 22:08",
+		"initAuthCompleted" : "MasashiUmezawa 5/6/2017 23:29",
 		"initReceiveHandlers" : "MasashiUmezawa 10/10/2016 22:29",
 		"initRequestsMap" : "MasashiUmezawa 10/10/2016 22:29",
-		"initialize" : "MasashiUmezawa 10/10/2016 22:30",
+		"initialize" : "MasashiUmezawa 5/6/2017 23:17",
 		"insertAt:values:" : "MasashiUmezawa 10/23/2016 15:16",
 		"isRequesting" : "MasashiUmezawa 9/18/2016 00:31",
 		"newRequest" : "MasashiUmezawa 10/23/2016 15:16",
@@ -32,7 +33,7 @@
 		"readGreetingFrom:" : "MasashiUmezawa 11/6/2016 15:45",
 		"readPacketFrom:" : "MasashiUmezawa 9/18/2016 22:01",
 		"reconnect" : "MasashiUmezawa 4/15/2017 01:52",
-		"release" : "MasashiUmezawa 10/10/2016 22:36",
+		"release" : "MasashiUmezawa 5/6/2017 23:18",
 		"releaseThenConnect" : "MasashiUmezawa 4/15/2017 01:23",
 		"releaseThenConnectIntervalSeconds" : "MasashiUmezawa 4/15/2017 01:23",
 		"replaceAt:values:" : "MasashiUmezawa 10/23/2016 15:17",
@@ -56,4 +57,6 @@
 		"tryAuth" : "MasashiUmezawa 12/16/2016 23:06",
 		"updateAt:indexAt:having:performing:" : "MasashiUmezawa 10/23/2016 15:17",
 		"upsertAt:values:performing:" : "MasashiUmezawa 10/23/2016 15:17",
-		"userName" : "MasashiUmezawa 10/16/2016 14:41" } }
+		"userName" : "MasashiUmezawa 10/16/2016 14:41",
+		"waitAuthCompleted" : "MasashiUmezawa 5/6/2017 23:31",
+		"waitAuthCompleted:interval:" : "MasashiUmezawa 5/6/2017 23:27" } }

@@ -1,6 +1,8 @@
 accessing
 tarantalk
-	| uriString |
+	| uriString talk |
 	uriString := self class uriString.
 	uriString ifNil: [ self error: 'Please set tarantool uri for testing' ].
-	^TrTarantalk connect: uriString.
+	talk := TrTarantalk connect: uriString.
+	talk waitAuthCompleted.
+	^talk

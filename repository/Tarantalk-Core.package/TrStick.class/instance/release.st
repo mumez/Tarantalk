@@ -4,4 +4,5 @@ release
 	salt := requestWriter := responseReader := nil.
 	self initRequestsMap.
 	self initReceiveHandlers.
+	self initAuthCompleted.
 	

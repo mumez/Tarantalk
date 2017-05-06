@@ -17,6 +17,6 @@ testCounter
 	self assert: ((space at: 'smalltalk') = 1).
 	space at: 'smalltalk' plus: 5.
 	self assert: ((space at: 'smalltalk') = 6).
-	space truncate.
+	(space truncate) value.
 	self assert: (space size = 0).
 	space drop.

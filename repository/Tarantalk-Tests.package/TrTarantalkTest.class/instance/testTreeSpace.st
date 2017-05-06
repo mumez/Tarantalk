@@ -3,7 +3,7 @@ testTreeSpace
 	| talk space tuples |
 	talk := self tarantalk.
 	space := talk ensureSpaceNamed: 'trt_testTreeSpace'.
-	space truncate.
+	(space truncate) value.
 	space ensurePrimaryIndex.
 	space ensureSecondaryIndexSetting: [:opts | opts  partsTypes: #(#string) ].
 	self assert: (space size = 0).
@@ -17,6 +17,6 @@ testTreeSpace
 	self assert: (tuples size = 3).
 	self assert: (tuples first = #(5 'pharo' 5)).
 	self assert: (tuples last = #(7 'pharsalia' 7)).
-	space truncate.
+	(space truncate) value.
 	self assert: (space size = 0).
 	space drop.

@@ -16,6 +16,6 @@ testCombinedKeysHashSpace
 	tuples := space ensureSecondaryIndex selectHaving: #('tests' 2).
 	self assert: (tuples size = 1).
 	self assert: (tuples first = (#(5 'tests' 2))).
-	space truncate.
+	(space truncate) value.
 	self assert: (space size = 0).
 	space drop.

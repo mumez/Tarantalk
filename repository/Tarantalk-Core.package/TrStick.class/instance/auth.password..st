@@ -4,4 +4,5 @@ auth: userNameString password: passwordString
 	currentSalt := self salt ifNil: [ ^self connect].
 	userName := userNameString.
 	request := self newRequest auth: userNameString password: passwordString salted: currentSalt.
-	^self sendRequest: request
+	^(self sendRequest: request)
+		ifDone: [ authCompleted := true ] 

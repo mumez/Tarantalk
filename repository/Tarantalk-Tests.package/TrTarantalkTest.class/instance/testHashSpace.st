@@ -14,6 +14,6 @@ testHashSpace
 	space removeKey: 'lua'.
 	self assert: (space at: 'lua' ifAbsent: []) = nil.
 	self assert: (space size = 1).
-	space truncate.
+	(space truncate) value.
 	self assert: (space size = 0).
 	space drop.

@@ -1,3 +1,3 @@
 authentication
 waitAuthCompleted
-	^self stick waitAuthCompleted
+	self stick waitAuthCompleted

@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"chapSha1StringFrom:password:" : "MasashiUmezawa 11/6/2016 15:12",
-		"ensureArray:" : "MasashiUmezawa 11/11/2016 22:30" } }
+		"ensureArray:" : "MasashiUmezawa 11/11/2016 22:30",
+		"chapSha1StringFrom:password:" : "MasashiUmezawa 11/6/2016 15:12"
+	},
+	"class" : { }
+}

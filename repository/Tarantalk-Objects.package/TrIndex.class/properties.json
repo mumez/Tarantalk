@@ -1,19 +1,18 @@
 {
-	"category" : "Tarantalk-Objects",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TrObject",
+	"category" : "Tarantalk-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"id",
 		"name",
 		"type",
 		"isUnique",
 		"spaceId",
-		"parts" ],
+		"parts"
+	],
 	"name" : "TrIndex",
-	"pools" : [
-		 ],
-	"super" : "TrObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

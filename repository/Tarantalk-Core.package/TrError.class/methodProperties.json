@@ -1,12 +1,20 @@
 {
-	"class" : {
-		"code:description:" : "MasashiUmezawa 10/10/2016 15:15",
-		"codeSymbolArray" : "MasashiUmezawa 10/10/2016 15:55",
-		"fromResponse:" : "MasashiUmezawa 10/23/2016 14:45" },
 	"instance" : {
 		"code" : "MasashiUmezawa 10/10/2016 15:05",
+		"reason:" : "MasashiUmezawa 6/23/2017 23:46",
+		"stick" : "MasashiUmezawa 7/7/2017 14:12",
+		"kind" : "MasashiUmezawa 10/10/2016 15:37",
+		"preSignal" : "MasashiUmezawa 7/7/2017 14:36",
+		"signal" : "MasashiUmezawa 7/7/2017 14:36",
 		"code:" : "MasashiUmezawa 10/10/2016 15:05",
-		"description" : "MasashiUmezawa 10/10/2016 15:05",
-		"description:" : "MasashiUmezawa 10/10/2016 15:05",
-		"isTarantoolError" : "MasashiUmezawa 11/14/2016 22:41",
-		"kind" : "MasashiUmezawa 10/10/2016 15:37" } }
+		"messageText" : "MasashiUmezawa 6/23/2017 23:47",
+		"stick:" : "MasashiUmezawa 7/7/2017 14:12",
+		"reason" : "MasashiUmezawa 6/23/2017 23:46",
+		"isTarantoolError" : "MasashiUmezawa 11/14/2016 22:41"
+	},
+	"class" : {
+		"fromResponse:" : "MasashiUmezawa 6/23/2017 23:48",
+		"code:reason:" : "MasashiUmezawa 6/23/2017 23:48",
+		"codeSymbolArray" : "MasashiUmezawa 10/10/2016 15:55"
+	}
+}

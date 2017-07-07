@@ -1,3 +1,3 @@
 accessing
 settings
-	^settings ifNil: [ settings := TrSettings default ]
+	^self stick settings

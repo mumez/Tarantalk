@@ -1,26 +1,29 @@
 {
-	"class" : {
-		"builder:" : "MasashiUmezawa 10/1/2016 14:24",
-		"operator:at:value:" : "MasashiUmezawa 9/24/2016 23:22" },
 	"instance" : {
-		"add:" : "MasashiUmezawa 10/1/2016 14:25",
+		"insert:" : "MasashiUmezawa 10/1/2016 14:31",
+		"splice:from:size:" : "MasashiUmezawa 12/4/2016 13:43",
 		"as:" : "MasashiUmezawa 10/1/2016 23:27",
+		"delete:" : "MasashiUmezawa 10/1/2016 14:31",
+		"builder:" : "MasashiUmezawa 10/1/2016 23:17",
+		"index" : "MasashiUmezawa 9/24/2016 23:19",
 		"asMpConverted" : "MasashiUmezawa 10/1/2016 23:30",
-		"asSplice" : "MasashiUmezawa 10/1/2016 23:28",
+		"subtract:" : "MasashiUmezawa 10/1/2016 14:31",
+		"bitXor:" : "MasashiUmezawa 10/1/2016 14:30",
+		"add:" : "MasashiUmezawa 10/1/2016 14:25",
+		"operator:" : "MasashiUmezawa 9/24/2016 23:19",
 		"assign:" : "MasashiUmezawa 10/1/2016 14:27",
+		"operator:value:" : "MasashiUmezawa 10/1/2016 14:25",
 		"bitAnd:" : "MasashiUmezawa 10/1/2016 14:30",
 		"bitOr:" : "MasashiUmezawa 10/1/2016 14:30",
-		"bitXor:" : "MasashiUmezawa 10/1/2016 14:30",
 		"builder" : "MasashiUmezawa 10/1/2016 14:25",
-		"builder:" : "MasashiUmezawa 10/1/2016 23:17",
-		"delete:" : "MasashiUmezawa 10/1/2016 14:31",
-		"index" : "MasashiUmezawa 9/24/2016 23:19",
-		"index:" : "MasashiUmezawa 9/24/2016 23:19",
-		"insert:" : "MasashiUmezawa 10/1/2016 14:31",
+		"asSplice" : "MasashiUmezawa 10/1/2016 23:28",
 		"operator" : "MasashiUmezawa 9/24/2016 23:19",
-		"operator:" : "MasashiUmezawa 9/24/2016 23:19",
-		"operator:value:" : "MasashiUmezawa 10/1/2016 14:25",
-		"splice:from:size:" : "MasashiUmezawa 12/4/2016 13:43",
-		"subtract:" : "MasashiUmezawa 10/1/2016 14:31",
+		"index:" : "MasashiUmezawa 9/24/2016 23:19",
 		"value" : "MasashiUmezawa 9/24/2016 23:19",
-		"value:" : "MasashiUmezawa 9/24/2016 23:19" } }
+		"value:" : "MasashiUmezawa 9/24/2016 23:19"
+	},
+	"class" : {
+		"builder:" : "MasashiUmezawa 10/1/2016 14:24",
+		"operator:at:value:" : "MasashiUmezawa 9/24/2016 23:22"
+	}
+}

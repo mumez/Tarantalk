@@ -1,7 +1,4 @@
 accessing-index
 ensureSecondaryIndexSetting: creationSettingsBlock
-	^ self
-		ensureIndexNamed: 'secondary'
-		setting: [ :opts | 
-			opts fieldOffset: 1.
-			creationSettingsBlock cull: opts ]
+	^ self ensureIndexNamed: 'secondary' at: 2 setting: creationSettingsBlock
+	

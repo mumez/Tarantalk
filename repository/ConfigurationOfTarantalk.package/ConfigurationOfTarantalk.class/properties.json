@@ -1,14 +1,15 @@
 {
-	"category" : "ConfigurationOfTarantalk",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"LastVersionLoad" ],
 	"commentStamp" : "",
-	"instvars" : [
-		"project" ],
-	"name" : "ConfigurationOfTarantalk",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "ConfigurationOfTarantalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastVersionLoad"
+	],
+	"instvars" : [
+		"project"
+	],
+	"name" : "ConfigurationOfTarantalk",
+	"type" : "normal"
+}

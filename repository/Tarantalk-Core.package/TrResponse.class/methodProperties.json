@@ -1,14 +1,17 @@
 {
-	"class" : {
-		"headerMap:bodyMap:" : "MasashiUmezawa 9/18/2016 00:04" },
 	"instance" : {
-		"code" : "MasashiUmezawa 9/18/2016 00:05",
-		"code:" : "MasashiUmezawa 9/18/2016 00:05",
 		"data" : "MasashiUmezawa 9/18/2016 00:05",
-		"data:" : "MasashiUmezawa 9/18/2016 00:05",
-		"errorData" : "MasashiUmezawa 9/18/2016 00:06",
-		"errorData:" : "MasashiUmezawa 9/18/2016 00:06",
-		"hasError" : "MasashiUmezawa 9/18/2016 23:01",
 		"headerMap:bodyMap:" : "MasashiUmezawa 10/10/2016 14:49",
+		"code" : "MasashiUmezawa 9/18/2016 00:05",
+		"syncId:" : "MasashiUmezawa 9/18/2016 00:05",
+		"hasError" : "MasashiUmezawa 9/18/2016 23:01",
+		"errorData:" : "MasashiUmezawa 9/18/2016 00:06",
+		"data:" : "MasashiUmezawa 9/18/2016 00:05",
 		"syncId" : "MasashiUmezawa 9/18/2016 00:05",
-		"syncId:" : "MasashiUmezawa 9/18/2016 00:05" } }
+		"errorData" : "MasashiUmezawa 9/18/2016 00:06",
+		"code:" : "MasashiUmezawa 9/18/2016 00:05"
+	},
+	"class" : {
+		"headerMap:bodyMap:" : "MasashiUmezawa 9/18/2016 00:04"
+	}
+}

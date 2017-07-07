@@ -1,3 +1,3 @@
 factory
 newRequest
-	^self requestClass newWithSettings: self settings
+	^self requestClass on: self

@@ -1,3 +1,3 @@
 controlling
 value
-	^self valueFor: self settings responseSyncWaitTimeoutSeconds
+	^ returnedValue ifNil: [ returnedValue := self valueFor: self settings responseSyncWaitTimeoutSeconds ]

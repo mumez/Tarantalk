@@ -1,14 +1,15 @@
 {
+	"commentStamp" : "",
+	"super" : "TrObject",
 	"category" : "Tarantalk-Objects",
 	"classinstvars" : [
-		"talksDict" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"talksDict"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"reconnectCount" ],
+		"reconnectCount"
+	],
 	"name" : "TrTarantalk",
-	"pools" : [
-		 ],
-	"super" : "TrObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

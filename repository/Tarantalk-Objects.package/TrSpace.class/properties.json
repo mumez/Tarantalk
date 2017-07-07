@@ -1,10 +1,10 @@
 {
-	"category" : "Tarantalk-Objects",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TrObject",
+	"category" : "Tarantalk-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"id",
 		"owner",
@@ -12,9 +12,8 @@
 		"engine",
 		"isTemporary",
 		"fieldCount",
-		"formatMap" ],
+		"formatMap"
+	],
 	"name" : "TrSpace",
-	"pools" : [
-		 ],
-	"super" : "TrObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,19 +1,21 @@
 {
+	"commentStamp" : "",
+	"super" : "Object",
 	"category" : "Tarantalk-Core",
 	"classinstvars" : [
 		"mutex",
-		"idCounter" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"idCounter"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"settings",
+		"stick",
 		"headerMap",
 		"bodyMap",
 		"successBlock",
-		"failureBlock" ],
+		"failureBlock",
+		"returnedValue"
+	],
 	"name" : "TrRequest",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

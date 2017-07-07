@@ -1,15 +1,14 @@
 {
-	"category" : "Tarantalk-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TrUpdateOperation",
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"position",
-		"size" ],
+		"size"
+	],
 	"name" : "TrSpliceOperation",
-	"pools" : [
-		 ],
-	"super" : "TrUpdateOperation",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,15 +1,17 @@
 {
+	"commentStamp" : "",
+	"super" : "Error",
 	"category" : "Tarantalk-Core",
 	"classinstvars" : [
-		"codeMap" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"codeMap"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"code",
-		"description" ],
+		"reason",
+		"stick"
+	],
 	"name" : "TrError",
-	"pools" : [
-		 ],
-	"super" : "Error",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,16 +1,19 @@
 {
+	"instance" : {
+		"testCombinedKeysTreeSpace" : "MasashiUmezawa 5/6/2017 23:52",
+		"tarantalk" : "MasashiUmezawa 5/6/2017 23:58",
+		"testAtAddAndRemoveFirst" : "MasashiUmezawa 5/7/2017 00:02",
+		"testCounter" : "MasashiUmezawa 5/6/2017 23:52",
+		"testHashSpace" : "MasashiUmezawa 5/6/2017 23:52",
+		"testAtAddAndRemoveLast" : "MasashiUmezawa 5/7/2017 00:02",
+		"testTreeSpace" : "MasashiUmezawa 5/7/2017 00:03",
+		"randomString" : "MasashiUmezawa 11/20/2016 22:37",
+		"testSplice" : "MasashiUmezawa 5/7/2017 00:03",
+		"testCombinedKeysHashSpace" : "MasashiUmezawa 5/6/2017 23:51"
+	},
 	"class" : {
 		"initialize" : "MasashiUmezawa 11/15/2016 23:34",
 		"uriString" : "MasashiUmezawa 11/15/2016 23:32",
-		"uriString:" : "MasashiUmezawa 11/15/2016 23:32" },
-	"instance" : {
-		"randomString" : "MasashiUmezawa 11/20/2016 22:37",
-		"tarantalk" : "MasashiUmezawa 5/6/2017 23:58",
-		"testAtAddAndRemoveFirst" : "MasashiUmezawa 5/7/2017 00:02",
-		"testAtAddAndRemoveLast" : "MasashiUmezawa 5/7/2017 00:02",
-		"testCombinedKeysHashSpace" : "MasashiUmezawa 5/6/2017 23:51",
-		"testCombinedKeysTreeSpace" : "MasashiUmezawa 5/6/2017 23:52",
-		"testCounter" : "MasashiUmezawa 5/6/2017 23:52",
-		"testHashSpace" : "MasashiUmezawa 5/6/2017 23:52",
-		"testSplice" : "MasashiUmezawa 5/7/2017 00:03",
-		"testTreeSpace" : "MasashiUmezawa 5/7/2017 00:03" } }
+		"uriString:" : "MasashiUmezawa 11/15/2016 23:32"
+	}
+}

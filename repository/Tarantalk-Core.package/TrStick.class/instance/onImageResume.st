@@ -1,3 +1,3 @@
 startup-shutdown
 onImageResume
-	self releaseThenConnect
+	[self releaseThenConnect] fork

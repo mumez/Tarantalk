@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"chapSha1StringFrom:password:" : "MasashiUmezawa 9/18/2016 23:26",
-		"createMutex" : "MasashiUmezawa 9/10/2016 16:56" } }
+		"createMutex" : "MasashiUmezawa 9/10/2016 16:56"
+	},
+	"class" : { }
+}

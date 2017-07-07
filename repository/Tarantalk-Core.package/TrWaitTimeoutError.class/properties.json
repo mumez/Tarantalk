@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TrError",
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TrWaitTimeoutError",
+	"type" : "normal"
+}

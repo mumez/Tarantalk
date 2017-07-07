@@ -1,17 +1,16 @@
 {
-	"category" : "Tarantalk-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"code",
 		"syncId",
 		"data",
-		"errorData" ],
+		"errorData"
+	],
 	"name" : "TrResponse",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

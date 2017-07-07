@@ -1,3 +1,3 @@
 field-types
 scalar
-	^'number'
+	^'scalar'

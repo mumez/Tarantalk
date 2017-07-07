@@ -1,10 +1,13 @@
 {
-	"class" : {
-		"spliceAt:from:size:value:" : "MasashiUmezawa 12/4/2016 13:40" },
 	"instance" : {
+		"size:" : "MasashiUmezawa 12/4/2016 13:29",
 		"asMpConverted" : "MasashiUmezawa 12/4/2016 23:59",
-		"from:size:value:" : "MasashiUmezawa 12/4/2016 13:31",
 		"position" : "MasashiUmezawa 10/1/2016 23:19",
 		"position:" : "MasashiUmezawa 10/1/2016 23:19",
-		"size" : "MasashiUmezawa 12/4/2016 13:28",
-		"size:" : "MasashiUmezawa 12/4/2016 13:29" } }
+		"from:size:value:" : "MasashiUmezawa 12/4/2016 13:31",
+		"size" : "MasashiUmezawa 12/4/2016 13:28"
+	},
+	"class" : {
+		"spliceAt:from:size:value:" : "MasashiUmezawa 12/4/2016 13:40"
+	}
+}

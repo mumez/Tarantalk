@@ -12,4 +12,4 @@ valueFor: waitTimeoutSeconds
 	sema
 		waitTimeoutSeconds: waitTimeoutSeconds
 		onCompletion: [ ^ result ]
-		onTimeout: [(TrWaitTimeoutError reason: 'Failed to return' stick: self) signal ]
+		onTimeout: [(TrWaitTimeoutError reason: 'Failed to return' stick: self stick) signal ]

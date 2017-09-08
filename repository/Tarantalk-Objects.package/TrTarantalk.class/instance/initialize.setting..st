@@ -1,6 +1,8 @@
 initialize-release
 initialize: tarantoolUri setting: settingBlock
-	(stick notNil and: [stick isConnected ]) ifTrue: [ ^self ].
+	((stick notNil and: [stick isConnected])
+		and: [stick tarantoolUri = tarantoolUri]) ifTrue: [ ^self ].
+	
 	reconnectCount := 0.
 	stick := self stickClass targetUrl: tarantoolUri.
 	settingBlock value: self.

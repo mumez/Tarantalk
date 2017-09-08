@@ -13,7 +13,7 @@
 		"initReceiveHandlers" : "MasashiUmezawa 10/10/2016 22:29",
 		"getAt:having:" : "MasashiUmezawa 10/30/2016 00:26",
 		"call:" : "MasashiUmezawa 10/23/2016 21:05",
-		"reconnect" : "MasashiUmezawa 4/15/2017 01:52",
+		"reconnect" : "MasashiUmezawa 9/8/2017 14:47",
 		"waitAuthCompleted:interval:" : "MasashiUmezawa 5/6/2017 23:27",
 		"userName" : "MasashiUmezawa 10/16/2016 14:41",
 		"eval:" : "MasashiUmezawa 10/23/2016 21:04",
@@ -28,7 +28,7 @@
 		"updateAt:indexAt:having:performing:" : "MasashiUmezawa 10/23/2016 15:17",
 		"passwordProvider" : "MasashiUmezawa 11/6/2016 14:52",
 		"isRequesting" : "MasashiUmezawa 9/18/2016 00:31",
-		"settings" : "MasashiUmezawa 10/23/2016 00:17",
+		"settings" : "MasashiUmezawa 9/8/2017 14:10",
 		"initAuthCompleted" : "MasashiUmezawa 5/6/2017 23:29",
 		"readGreetingFrom:" : "MasashiUmezawa 11/6/2016 15:45",
 		"initRequestsMap" : "MasashiUmezawa 10/10/2016 22:29",
@@ -36,6 +36,7 @@
 		"ping" : "MasashiUmezawa 10/23/2016 15:16",
 		"onImageResume" : "MasashiUmezawa 6/23/2017 23:31",
 		"handleResponse:" : "MasashiUmezawa 7/7/2017 14:28",
+		"tarantoolUri" : "MasashiUmezawa 9/8/2017 16:15",
 		"releaseThenConnectIntervalSeconds" : "MasashiUmezawa 4/15/2017 01:23",
 		"ensureAsyncSchemaOf:" : "MasashiUmezawa 4/14/2017 23:52",
 		"selectAt:" : "MasashiUmezawa 10/9/2016 00:35",
@@ -59,5 +60,7 @@
 		"releaseThenConnect" : "MasashiUmezawa 4/15/2017 01:23",
 		"selectAt:having:" : "MasashiUmezawa 10/16/2016 15:16"
 	},
-	"class" : { }
+	"class" : {
+		"releaseAll" : "MasashiUmezawa 9/8/2017 14:48"
+	}
 }

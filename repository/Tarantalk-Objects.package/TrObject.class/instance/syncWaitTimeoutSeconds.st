@@ -1,0 +1,3 @@
+accessing
+syncWaitTimeoutSeconds
+	^ self stick settings responseSyncWaitTimeoutSeconds

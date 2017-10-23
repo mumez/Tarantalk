@@ -6,4 +6,5 @@ sendRequest: aRequest
 	self requestWriter writeRequest: aRequest on: stream.
 	bytes := stream contents.
 	self send: bytes.
+	Processor yield.
 	^aRequest

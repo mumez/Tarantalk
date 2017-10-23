@@ -1,3 +1,3 @@
 actions-spaces
 ensureTempSpaceNamed: spaceName
-	^self schema ensureTempSpaceNamed: spaceName
+	^self ensureSpaceNamed: spaceName setting: [:opts | opts temporary]

@@ -1,10 +1,10 @@
 {
 	"instance" : {
 		"trySwitchUriOf:" : "MasashiUmezawa 4/15/2017 01:47",
-		"ensureTempSpaceNamed:" : "MasashiUmezawa 11/6/2016 00:07",
+		"ensureTempSpaceNamed:" : "MasashiUmezawa 9/17/2017 22:47",
 		"schema" : "MasashiUmezawa 11/9/2016 23:40",
 		"spaces" : "MasashiUmezawa 11/5/2016 23:59",
-		"ensureSpaceNamed:setting:" : "MasashiUmezawa 8/4/2017 13:45",
+		"ensureSpaceNamed:setting:" : "MasashiUmezawa 9/17/2017 22:49",
 		"unregister" : "MasashiUmezawa 11/8/2016 22:37",
 		"initialize:setting:" : "MasashiUmezawa 9/8/2017 16:18",
 		"waitAuthCompleted" : "MasashiUmezawa 6/24/2017 00:26",
@@ -12,12 +12,11 @@
 		"secondaryUri:" : "MasashiUmezawa 4/15/2017 01:26",
 		"ensureVinylSpaceNamed:" : "MasashiUmezawa 8/4/2017 13:46",
 		"spaceClass" : "MasashiUmezawa 11/5/2016 23:56",
-		"stick" : "MasashiUmezawa 11/5/2016 23:54",
 		"schemaClass" : "MasashiUmezawa 11/5/2016 23:55",
 		"snapshot" : "MasashiUmezawa 8/4/2017 13:21",
-		"ensureSpaceNamed:" : "MasashiUmezawa 11/6/2016 00:06",
+		"ensureSpaceNamed:" : "MasashiUmezawa 9/17/2017 22:46",
 		"auth:password:" : "MasashiUmezawa 11/5/2016 23:57",
-		"release" : "MasashiUmezawa 11/8/2016 22:38",
+		"release" : "MasashiUmezawa 9/17/2017 22:28",
 		"initialize:" : "MasashiUmezawa 4/13/2017 17:09",
 		"indexClass" : "MasashiUmezawa 11/5/2016 23:55",
 		"printOn:" : "MasashiUmezawa 11/6/2016 16:23",
@@ -35,7 +34,7 @@
 		"connect:shuffled:" : "MasashiUmezawa 3/29/2017 00:57",
 		"initialize" : "MasashiUmezawa 11/6/2016 00:04",
 		"connect:setting:" : "MasashiUmezawa 4/13/2017 17:10",
-		"releaseAll" : "MasashiUmezawa 11/6/2016 16:20",
+		"releaseAll" : "MasashiUmezawa 9/17/2017 22:26",
 		"connect:tagged:setting:" : "MasashiUmezawa 4/13/2017 17:10"
 	}
 }

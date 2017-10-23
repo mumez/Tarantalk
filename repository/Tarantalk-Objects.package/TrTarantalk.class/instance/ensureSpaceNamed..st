@@ -1,3 +1,3 @@
 actions-spaces
 ensureSpaceNamed: spaceName
-	^self schema ensureSpaceNamed: spaceName
+	^self ensureSpaceNamed: spaceName setting: [:opts | opts ]

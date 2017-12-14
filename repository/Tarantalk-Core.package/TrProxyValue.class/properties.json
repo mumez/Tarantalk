@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ProtoObject",
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"syncValue"
+	],
+	"name" : "TrProxyValue",
+	"type" : "normal"
+}

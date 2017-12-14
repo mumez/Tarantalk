@@ -1,14 +1,15 @@
 reading
 readResponseFrom: aStream
-	| sizeBytes size decoder mapsBytes mapsStream headerMap bodyMap |
-	sizeBytes := aStream next: 5.
-	sizeBytes size < 5 ifTrue: [^nil].
+	| sizeBytes sizeRead decoder headerMap bodyMap |
+	sizeBytes := #[0 0 0 0 0].
+	sizeRead := aStream readInto: sizeBytes startingAt: 1 count: 5.
+	sizeRead < 5 ifTrue: [^nil].
+	
 	decoder := self createDecoder.
-	size :=  decoder decode: sizeBytes.	
-	mapsBytes := aStream next: size.
-	mapsStream := mapsBytes readStream.
-	decoder readStream: mapsStream.
+	decoder decode: sizeBytes.
+	
+	decoder readStream: aStream.
 	headerMap := decoder read.
-	bodyMap := mapsStream atEnd  ifFalse: [decoder read].
-	headerMap isDictionary ifFalse: [^nil].
+	bodyMap := decoder read.
+	
 	^self responseClass headerMap: headerMap bodyMap: bodyMap

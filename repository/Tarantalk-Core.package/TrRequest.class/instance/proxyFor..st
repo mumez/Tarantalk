@@ -1,5 +1,5 @@
 controlling
-valueFor: waitTimeoutSeconds
+proxyFor: waitTimeoutSeconds
 	| syncValue |
 	syncValue := self createSyncValueFor: waitTimeoutSeconds.
-	^syncValue value
+	^self proxyValueClass on: syncValue 

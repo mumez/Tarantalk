@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"request",
+		"waitTimeoutSeconds",
+		"semaphore",
+		"value"
+	],
+	"name" : "TrSyncValue",
+	"type" : "normal"
+}

@@ -1,8 +1,12 @@
 {
 	"instance" : {
 		"uint32" : "MasashiUmezawa 12/11/2017 15:28",
-		"uint64" : "MasashiUmezawa 12/11/2017 15:29",
-		"uint16" : "MasashiUmezawa 12/11/2017 15:35"
+		"int64" : "MasashiUmezawa 2/2/2018 13:16",
+		"nextNumber:" : "MasashiUmezawa 2/2/2018 13:13",
+		"int16" : "MasashiUmezawa 2/2/2018 13:15",
+		"uint16" : "MasashiUmezawa 12/11/2017 15:35",
+		"int32" : "MasashiUmezawa 2/2/2018 13:15",
+		"uint64" : "MasashiUmezawa 12/11/2017 15:29"
 	},
 	"class" : { }
 }

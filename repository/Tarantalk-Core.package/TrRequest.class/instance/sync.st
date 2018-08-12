@@ -1,0 +1,3 @@
+controlling
+sync
+	^self value

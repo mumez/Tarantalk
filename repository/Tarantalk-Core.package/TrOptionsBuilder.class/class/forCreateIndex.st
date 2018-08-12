@@ -1,4 +1,4 @@
 instance creation
 forCreateIndex
-	^self new
+	^self new mode: #forIndex;
 		yourself

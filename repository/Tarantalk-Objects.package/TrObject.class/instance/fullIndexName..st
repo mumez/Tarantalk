@@ -1,3 +1,3 @@
 private
 fullIndexName: indexName
-	^self fullName, '.index.', indexName
+	^self fullSafeName, '.index.', indexName

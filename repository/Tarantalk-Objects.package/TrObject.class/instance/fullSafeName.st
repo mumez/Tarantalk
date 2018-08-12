@@ -1,0 +1,3 @@
+private
+fullSafeName
+	^self fullName 

@@ -3,17 +3,8 @@ baseline: spec
 	<baseline>
 
 	spec for: #'common' do: [
-		spec 
-			project: 'MessagePack' with: [
-				spec
-					className: #ConfigurationOfMessagePack;
-					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/MasashiUmezawa/MessagePack/main/' ];
-			project: 'Stick' with: [
-				spec
-					className: #ConfigurationOfStick;
-					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/MasashiUmezawa/Stick/main/' ].
+		self messagePack: spec.
+		self stick: spec.
 		spec 
 			package: 'Tarantalk-Core';
 			package: 'Tarantalk-Objects';

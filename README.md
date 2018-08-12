@@ -12,11 +12,7 @@ Enjoy its chemical effects on such a dynamic environment.
 You can install via Catalog Browser, or just do it:
 
 ```Smalltalk
-Metacello new
-    smalltalkhubUser: 'Pharo' project: 'MetaRepoForPharo50';
-    configuration: 'Tarantalk';
-    version: #stable;
-    load.
+Metacello new  baseline: 'Tarantalk';  repository: 'github://mumez/Tarantalk/repository';  load.
 ```
 
 ## Settings ##

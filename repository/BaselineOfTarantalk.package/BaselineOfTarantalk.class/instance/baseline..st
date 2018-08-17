@@ -6,7 +6,7 @@ baseline: spec
 		self messagePack: spec.
 		self stick: spec.
 		spec 
-			package: 'Tarantalk-Core';
+			package: 'Tarantalk-Core' with: [spec requires: #('MessagePack' 'Stick')];
 			package: 'Tarantalk-Objects';
 			package: 'Tarantalk-Tests'.
 		spec 

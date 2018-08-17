@@ -1,3 +1,3 @@
 private
 fullFunctionName: functionName
-	^self fullName, '.', functionName
+	^self fullSafeName, '.', functionName

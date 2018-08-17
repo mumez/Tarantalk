@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"options",
-		"fieldOffset",
-		"mode"
+		"name",
+		"type",
+		"isNullable"
 	],
-	"name" : "TrOptionsBuilder",
+	"name" : "TrFieldPart",
 	"type" : "normal"
 }

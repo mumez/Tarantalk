@@ -1,4 +1,4 @@
 instance creation
 forCreateSpace
-	^self new
+	^self new mode: #forSpace;
 		yourself

@@ -1,13 +1,15 @@
 reading
 readResponseFrom: aStream
-	| sizeBytes sizeRead size decoder mapsBytes headerMap bodyMap |
+	| sizeBytes sizeRead decoder headerMap bodyMap |
 	sizeBytes := #[0 0 0 0 0].
 	sizeRead := aStream readInto: sizeBytes startingAt: 1 count: 5.
 	sizeRead < 5 ifTrue: [^nil].
+	
 	decoder := self createDecoder.
-	size :=  decoder decode: sizeBytes.
-	mapsBytes := aStream next: size.
-	decoder readStream: mapsBytes readStream.
+	"decoder decode: sizeBytes."
+	
+	decoder readStream: aStream.
 	headerMap := decoder read.
 	bodyMap := decoder read.
+	
 	^self responseClass headerMap: headerMap bodyMap: bodyMap

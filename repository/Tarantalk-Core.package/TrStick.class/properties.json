@@ -7,6 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"salt",
+		"requestedUserName",
 		"userName",
 		"authCompleted",
 		"selectLimit",

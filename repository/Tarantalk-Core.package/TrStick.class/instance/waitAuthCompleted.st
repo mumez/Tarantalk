@@ -1,3 +1,3 @@
 authentication
 waitAuthCompleted
-	^self waitAuthCompleted: 50 interval: 2
+	^self waitAuthCompleted: 500 interval: 2

@@ -6,5 +6,6 @@ printOn: aStream
 	aStream nextPutAll: ' id: ', self id asString.
 	aStream nextPutAll: ' name: ', self name asString.
 	aStream nextPutAll: ' ownerId: ', self owner asString.
+	aStream nextPutAll: ' engine: ', self engine asString.
 	aStream nextPutAll: ')'.
 	

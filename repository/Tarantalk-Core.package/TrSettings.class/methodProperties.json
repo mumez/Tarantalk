@@ -1,10 +1,12 @@
 {
 	"instance" : {
-		"useOldCall:" : "MasashiUmezawa 10/23/2016 16:16",
+		"sendingProcessPriority" : "MasashiUmezawa 6/22/2019 16:04",
 		"useOldCall" : "MasashiUmezawa 10/23/2016 00:15",
 		"responseSyncWaitTimeoutSeconds:" : "MasashiUmezawa 10/23/2016 16:16",
+		"useOldCall:" : "MasashiUmezawa 10/23/2016 16:16",
 		"defaultSelectLimit" : "MasashiUmezawa 11/6/2016 15:08",
 		"defaultSelectLimit:" : "MasashiUmezawa 11/6/2016 15:08",
+		"defaultSendingProcessPriority" : "MasashiUmezawa 6/22/2019 16:08",
 		"responseSyncWaitTimeoutSeconds" : "MasashiUmezawa 10/23/2016 16:16"
 	},
 	"class" : { }

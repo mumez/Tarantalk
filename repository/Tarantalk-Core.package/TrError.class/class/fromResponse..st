@@ -1,7 +1,8 @@
 instance creation
 fromResponse: aTrResponse
-	| inst |
-	inst := self new.
-	inst code: aTrResponse code - 16r8000.
+	| code inst |
+	code := aTrResponse code - 16r8000.
+	inst := (self classForCode: code) new.
+	inst code: code.
 	inst reason: aTrResponse errorData.
 	^inst

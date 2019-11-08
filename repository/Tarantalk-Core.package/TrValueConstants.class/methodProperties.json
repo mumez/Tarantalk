@@ -1,20 +1,24 @@
 {
 	"instance" : { },
 	"class" : {
-		"delete" : "MasashiUmezawa 9/10/2016 14:34",
-		"update" : "MasashiUmezawa 9/10/2016 14:34",
-		"isError:" : "MasashiUmezawa 9/10/2016 14:48",
-		"eval" : "MasashiUmezawa 9/10/2016 14:34",
-		"ok" : "MasashiUmezawa 9/10/2016 14:35",
-		"subscribe" : "MasashiUmezawa 9/10/2016 14:43",
-		"join" : "MasashiUmezawa 9/10/2016 14:43",
-		"auth" : "MasashiUmezawa 9/10/2016 14:34",
-		"select" : "MasashiUmezawa 9/10/2016 14:33",
-		"ping" : "MasashiUmezawa 9/10/2016 14:43",
-		"upsert" : "MasashiUmezawa 9/10/2016 14:34",
-		"insert" : "MasashiUmezawa 9/10/2016 14:34",
-		"call16" : "MasashiUmezawa 10/23/2016 00:01",
 		"replace" : "MasashiUmezawa 9/10/2016 14:34",
-		"call" : "MasashiUmezawa 9/10/2016 14:42"
+		"upsert" : "MasashiUmezawa 9/10/2016 14:34",
+		"ok" : "MasashiUmezawa 9/10/2016 14:35",
+		"delete" : "MasashiUmezawa 9/10/2016 14:34",
+		"call" : "MasashiUmezawa 9/10/2016 14:42",
+		"execute" : "MasashiUmezawa 11/8/2019 22:17",
+		"call16" : "MasashiUmezawa 10/23/2016 00:01",
+		"typeStatMax" : "MasashiUmezawa 11/8/2019 22:18",
+		"subscribe" : "MasashiUmezawa 9/10/2016 14:43",
+		"insert" : "MasashiUmezawa 9/10/2016 14:34",
+		"update" : "MasashiUmezawa 9/10/2016 14:34",
+		"select" : "MasashiUmezawa 9/10/2016 14:33",
+		"join" : "MasashiUmezawa 9/10/2016 14:43",
+		"ping" : "MasashiUmezawa 9/10/2016 14:43",
+		"eval" : "MasashiUmezawa 9/10/2016 14:34",
+		"auth" : "MasashiUmezawa 9/10/2016 14:34",
+		"requestVote" : "MasashiUmezawa 11/8/2019 22:19",
+		"isError:" : "MasashiUmezawa 9/10/2016 14:48",
+		"nop" : "MasashiUmezawa 11/8/2019 22:18"
 	}
 }

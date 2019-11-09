@@ -1,3 +1,3 @@
 command codes
 typeStatMax
-	^16r13
+	^13

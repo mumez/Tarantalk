@@ -8,8 +8,11 @@
 	"instvars" : [
 		"code",
 		"syncId",
+		"schemaId",
 		"data",
-		"errorData"
+		"metadata",
+		"errorData",
+		"sqlInfo"
 	],
 	"name" : "TrResponse",
 	"type" : "normal"

@@ -1,4 +1,4 @@
-actions-evaluating
+stored functions
 eval: expression arguments: args
 	| request |
 	request := self newRequest eval: expression arguments: args.

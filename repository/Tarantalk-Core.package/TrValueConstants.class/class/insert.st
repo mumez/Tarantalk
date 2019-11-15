@@ -1,3 +1,3 @@
 command codes
 insert
-	^2
+	^16r02

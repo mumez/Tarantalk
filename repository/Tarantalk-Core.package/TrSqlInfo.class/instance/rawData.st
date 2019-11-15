@@ -1,3 +1,0 @@
-accessing
-rawData
-	^ rawData

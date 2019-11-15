@@ -1,3 +1,3 @@
 command codes
 update
-	^4
+	^16r04

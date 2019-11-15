@@ -1,3 +1,3 @@
 command codes
 auth
-	^7
+	^16r07

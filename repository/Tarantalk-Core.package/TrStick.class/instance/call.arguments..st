@@ -1,4 +1,4 @@
-stored functions
+actions-calling
 call: funcName arguments: args
 	| request |
 	request := self newRequest call: funcName arguments: args.

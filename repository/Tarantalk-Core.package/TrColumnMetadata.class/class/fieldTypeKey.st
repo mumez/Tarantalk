@@ -1,0 +1,3 @@
+constants
+fieldTypeKey
+	^ 1

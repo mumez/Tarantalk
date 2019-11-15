@@ -6,6 +6,6 @@ headerMap: headerMap bodyMap: bodyMap
 	
 	self data: (bodyMap at: TrKeyConstants data ifAbsent: []).
 	self errorData: (bodyMap at: TrKeyConstants error ifAbsent: []).
-	self metadata: (bodyMap at: TrKeyConstants metadata ifAbsent: []).
-	self sqlInfo: (bodyMap at: TrKeyConstants sqlInfo ifAbsent: []).
+	self metadata: (self metadataFrom: bodyMap).
+	self sqlInfo: (self sqlInfoFrom: bodyMap).
 	

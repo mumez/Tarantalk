@@ -1,3 +1,6 @@
 executing-sql
 executeSql: statement values: bindingValues
-	^(self asyncExecuteSql: statement values: bindingValues) proxy
+	| ret |
+	ret := (self asyncExecuteSql: statement values: bindingValues) proxy.
+	ret isError ifTrue: [ ret signal ].
+	^ret

@@ -1,3 +1,6 @@
 executing-sql
 executeSql: statement mapped: namedParameterBindings
-	^(self asyncExecuteSql: statement mapped: namedParameterBindings) proxy
+	| ret |
+	ret := (self asyncExecuteSql: statement mapped: namedParameterBindings) proxy.
+	ret isError ifTrue: [ ret signal ].
+	^ret

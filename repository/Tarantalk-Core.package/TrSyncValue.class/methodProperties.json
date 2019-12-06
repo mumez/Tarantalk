@@ -1,13 +1,14 @@
 {
 	"instance" : {
-		"semaphore" : "MasashiUmezawa 9/23/2017 17:53",
 		"request:" : "MasashiUmezawa 9/23/2017 17:23",
+		"semaphore" : "MasashiUmezawa 9/23/2017 17:53",
 		"waitTimeoutSeconds" : "MasashiUmezawa 9/23/2017 17:23",
 		"setTimeoutError" : "MasashiUmezawa 10/13/2017 15:02",
 		"value" : "MasashiUmezawa 10/13/2017 15:05",
 		"initialize" : "MasashiUmezawa 10/13/2017 12:13",
 		"isEnded" : "MasashiUmezawa 9/23/2017 17:41",
 		"signalDone:" : "MasashiUmezawa 9/23/2017 17:38",
+		"isError" : "MasashiUmezawa 12/6/2019 16:56",
 		"semaphore:" : "MasashiUmezawa 9/23/2017 17:53",
 		"signalFailed:" : "MasashiUmezawa 9/23/2017 17:38",
 		"request" : "MasashiUmezawa 9/23/2017 17:23",

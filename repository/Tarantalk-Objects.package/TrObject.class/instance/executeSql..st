@@ -1,3 +1,6 @@
 executing-sql
 executeSql: statement
-	^(self asyncExecuteSql: statement) proxy
+	| ret |
+	ret := (self asyncExecuteSql: statement) proxy.
+	ret isError ifTrue: [ ret signal ].
+	^ret

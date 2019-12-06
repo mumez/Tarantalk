@@ -1,3 +1,3 @@
 accessing
 namedParameterSuffix
-	^ namedParameterSuffix ifNil: [ namedParameterSuffix := '@' ]
+	^ namedParameterSuffix ifNil: [ namedParameterSuffix := ':' ]

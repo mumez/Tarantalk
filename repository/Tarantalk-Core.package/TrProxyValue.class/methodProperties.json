@@ -1,12 +1,15 @@
 {
 	"instance" : {
-		"printOn:" : "MasashiUmezawa 10/16/2017 15:26",
-		"inspect" : "MasashiUmezawa 10/16/2017 15:15",
+		"yourself" : "MasashiUmezawa 10/16/2017 15:07",
 		"doesNotUnderstand:" : "MasashiUmezawa 10/16/2017 14:48",
-		"syncValue" : "MasashiUmezawa 10/14/2017 00:06",
-		"isError" : "MasashiUmezawa 12/6/2019 16:43",
+		"sqlInfo" : "MasashiUmezawa 12/7/2019 00:05",
 		"syncValue:" : "MasashiUmezawa 10/14/2017 00:06",
-		"yourself" : "MasashiUmezawa 10/16/2017 15:07"
+		"metadata" : "MasashiUmezawa 12/7/2019 00:05",
+		"printString" : "MasashiUmezawa 12/7/2019 00:22",
+		"syncValue" : "MasashiUmezawa 10/14/2017 00:06",
+		"printOn:" : "MasashiUmezawa 12/7/2019 00:17",
+		"isError" : "MasashiUmezawa 12/6/2019 16:43",
+		"inspect" : "MasashiUmezawa 10/16/2017 15:15"
 	},
 	"class" : {
 		"on:" : "MasashiUmezawa 10/14/2017 00:13"

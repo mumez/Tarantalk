@@ -1,5 +1,5 @@
 accessing-sql
-sqlChangedRowCount
+changedRowCount
 	| info |
 	info := self sqlInfo.
 	info ifNil: [ ^0 ].

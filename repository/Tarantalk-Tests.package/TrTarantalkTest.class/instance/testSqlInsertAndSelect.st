@@ -5,11 +5,11 @@ testSqlInsertAndSelect
 	self should: [ talk executeSql: 'drop table trt_table_InsertAndSelect'] raise: TrError.
 	
 	val := talk executeSql: 'create table trt_table_InsertAndSelect (column1 integer primary key, column2 varchar(100))'.
-	self assert: val sqlChangedRowCount equals: 1.
+	self assert: val changedRowCount equals: 1.
 	
 	97 to: 122 do: [ :idx | 
 	val := talk executeSql: 'insert into trt_table_InsertAndSelect values (?, ?)' values: {idx. idx asCharacter asString}.
-	self assert: val sqlChangedRowCount equals: 1.
+	self assert: val changedRowCount equals: 1.
 	].
 
 	resp := talk executeSql: 'select * from trt_table_InsertAndSelect'.
@@ -22,9 +22,9 @@ testSqlInsertAndSelect
 	self assert: resp first equals: #(97 'a').
 	self assert: resp last equals: #(122 'z').
 	
-	resp := talk executeSql: 'select * from trt_table1 where column1 = ?' values: { 100 }.
+	resp := talk executeSql: 'select * from trt_table_InsertAndSelect where column1 = ?' values: { 100 }.
 	self assert: resp size equals: 1.
 	self assert: resp first equals: #(100 'd').
 	
 	val := talk executeSql: 'drop table trt_table_InsertAndSelect'.
-	self assert: val sqlChangedRowCount equals: 1.
+	self assert: val changedRowCount equals: 1.

@@ -1,13 +1,15 @@
 {
 	"instance" : {
-		"columns:" : "MasashiUmezawa 11/15/2019 14:56",
-		"rawDataAt:" : "MasashiUmezawa 11/15/2019 15:00",
-		"columnAt:" : "MasashiUmezawa 11/15/2019 15:02",
-		"printOn:" : "MasashiUmezawa 11/15/2019 15:23",
 		"rawData:" : "MasashiUmezawa 11/15/2019 13:45",
+		"columnAt:" : "MasashiUmezawa 11/15/2019 15:02",
+		"rawData" : "MasashiUmezawa 11/15/2019 13:45",
+		"columnTypes" : "MasashiUmezawa 12/7/2019 18:51",
 		"columnCount" : "MasashiUmezawa 11/15/2019 15:01",
+		"rawDataAt:" : "MasashiUmezawa 11/15/2019 15:00",
+		"printOn:" : "MasashiUmezawa 11/15/2019 15:23",
 		"columns" : "MasashiUmezawa 11/15/2019 15:11",
-		"rawData" : "MasashiUmezawa 11/15/2019 13:45"
+		"columnNames" : "MasashiUmezawa 12/7/2019 19:00",
+		"columns:" : "MasashiUmezawa 11/15/2019 14:56"
 	},
 	"class" : {
 		"on:" : "MasashiUmezawa 11/15/2019 13:46"

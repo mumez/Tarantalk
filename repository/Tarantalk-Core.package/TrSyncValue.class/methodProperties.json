@@ -1,17 +1,23 @@
 {
 	"instance" : {
+		"sqlInfo" : "MasashiUmezawa 12/6/2019 23:58",
 		"semaphore" : "MasashiUmezawa 9/23/2017 17:53",
 		"request:" : "MasashiUmezawa 9/23/2017 17:23",
 		"waitTimeoutSeconds" : "MasashiUmezawa 9/23/2017 17:23",
+		"metadata" : "MasashiUmezawa 12/6/2019 23:58",
+		"response" : "MasashiUmezawa 12/6/2019 23:30",
 		"setTimeoutError" : "MasashiUmezawa 10/13/2017 15:02",
-		"value" : "MasashiUmezawa 10/13/2017 15:05",
-		"initialize" : "MasashiUmezawa 10/13/2017 12:13",
+		"signalFailed:on:" : "MasashiUmezawa 12/6/2019 23:47",
+		"initialize" : "MasashiUmezawa 12/6/2019 23:48",
+		"printOn:" : "MasashiUmezawa 12/7/2019 00:30",
 		"isEnded" : "MasashiUmezawa 9/23/2017 17:41",
-		"signalDone:" : "MasashiUmezawa 9/23/2017 17:38",
+		"isError" : "MasashiUmezawa 12/6/2019 16:56",
+		"response:" : "MasashiUmezawa 12/6/2019 23:30",
 		"semaphore:" : "MasashiUmezawa 9/23/2017 17:53",
-		"signalFailed:" : "MasashiUmezawa 9/23/2017 17:38",
-		"request" : "MasashiUmezawa 9/23/2017 17:23",
-		"waitTimeoutSeconds:" : "MasashiUmezawa 9/23/2017 17:23"
+		"signalDone:on:" : "MasashiUmezawa 12/6/2019 23:47",
+		"value" : "MasashiUmezawa 10/13/2017 15:05",
+		"waitTimeoutSeconds:" : "MasashiUmezawa 9/23/2017 17:23",
+		"request" : "MasashiUmezawa 9/23/2017 17:23"
 	},
 	"class" : {
 		"request:waitTimeoutSeconds:" : "MasashiUmezawa 9/23/2017 23:05"

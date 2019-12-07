@@ -6,12 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"request",
-		"response",
-		"waitTimeoutSeconds",
-		"semaphore",
-		"value"
+		"bindings",
+		"namedParameterSuffix"
 	],
-	"name" : "TrSyncValue",
+	"name" : "TrSqlBindingsBuilder",
 	"type" : "normal"
 }

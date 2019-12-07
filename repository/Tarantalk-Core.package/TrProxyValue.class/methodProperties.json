@@ -1,13 +1,14 @@
 {
 	"instance" : {
-		"yourself" : "MasashiUmezawa 10/16/2017 15:07",
 		"doesNotUnderstand:" : "MasashiUmezawa 10/16/2017 14:48",
 		"sqlInfo" : "MasashiUmezawa 12/7/2019 00:05",
+		"yourself" : "MasashiUmezawa 10/16/2017 15:07",
 		"syncValue:" : "MasashiUmezawa 10/14/2017 00:06",
 		"metadata" : "MasashiUmezawa 12/7/2019 00:05",
-		"printString" : "MasashiUmezawa 12/7/2019 00:22",
+		"sqlChangedRowCount" : "MasashiUmezawa 12/7/2019 18:00",
 		"syncValue" : "MasashiUmezawa 10/14/2017 00:06",
 		"printOn:" : "MasashiUmezawa 12/7/2019 00:17",
+		"printString" : "MasashiUmezawa 12/7/2019 00:22",
 		"isError" : "MasashiUmezawa 12/6/2019 16:43",
 		"inspect" : "MasashiUmezawa 10/16/2017 15:15"
 	},

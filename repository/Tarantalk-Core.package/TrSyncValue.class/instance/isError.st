@@ -1,3 +1,3 @@
 testing
 isError
-	^ self value isKindOf: Error
+	^ self value isTarantoolError 

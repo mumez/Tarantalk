@@ -1,0 +1,22 @@
+{
+	"instance" : {
+		"taskRunnerType" : "MasashiUmezawa 12/15/2019 14:58",
+		"stick" : "MasashiUmezawa 12/15/2019 14:44",
+		"create" : "MasashiUmezawa 12/15/2019 15:18",
+		"commonQueueWorkerPool" : "MasashiUmezawa 12/15/2019 15:00",
+		"stick:" : "MasashiUmezawa 12/15/2019 14:44",
+		"workerPool" : "MasashiUmezawa 12/15/2019 15:16",
+		"newProcessTaskRunner" : "MasashiUmezawa 12/15/2019 21:40",
+		"settings" : "MasashiUmezawa 12/15/2019 14:44"
+	},
+	"class" : {
+		"on:" : "MasashiUmezawa 12/15/2019 14:44",
+		"workerProcessPriority" : "MasashiUmezawa 12/15/2019 15:25",
+		"defaultPoolMaxSize" : "MasashiUmezawa 12/15/2019 15:26",
+		"reset" : "MasashiUmezawa 12/15/2019 15:14",
+		"prepareDefaultCommonQueueWorkerPool" : "MasashiUmezawa 12/15/2019 15:14",
+		"prepareDefaultWorkerPool" : "MasashiUmezawa 12/15/2019 15:25",
+		"defaultCommonQueueWorkerPool" : "MasashiUmezawa 12/15/2019 14:53",
+		"defaultWorkerPool" : "MasashiUmezawa 12/15/2019 15:12"
+	}
+}

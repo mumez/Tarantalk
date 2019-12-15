@@ -1,0 +1,3 @@
+accessing
+workerProcessPriority
+	^ TrSettings default workerProcessPriority

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Tarantalk-TaskIt",
+	"classinstvars" : [
+		"defaultCommonQueueWorkerPool",
+		"defaultWorkerPool"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stick"
+	],
+	"name" : "TrTaskRunnerFactory",
+	"type" : "normal"
+}

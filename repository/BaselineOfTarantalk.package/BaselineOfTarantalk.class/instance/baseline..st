@@ -10,7 +10,7 @@ baseline: spec
 			package: 'Tarantalk-Core' with: [spec requires: #('MessagePack' 'Stick')];
 			package: 'Tarantalk-Objects';
 			package: 'Tarantalk-Tests';
-			package: 'Tarantalk-TaskIt' with: [spec requires: #('TaskIt')].
+			package: 'Tarantalk-TaskIt' with: [spec requires: #('Tarantalk-Core' 'Tarantalk-Objects' 'TaskIt')].
 		spec 
 			group: 'default' with: #('Core' 'Tests' );
 			group: 'extra'  with: #('Task' );

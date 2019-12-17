@@ -1,4 +1,7 @@
 *Tarantalk-TaskIt
 taskRunnerType
 	"default, newProcess, workerPool, commonQueueWorkerPool"
-	^self at: #taskRunnerType ifAbsentPut: [#default]
+	| val |
+	val := self at: #taskRunnerType ifAbsentPut: [].
+	val ifNil: [ ^ #default ].
+	^ val

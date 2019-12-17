@@ -1,0 +1,3 @@
+factory
+commonQueueWorkerPool
+	^ self class defaultCommonQueueWorkerPool

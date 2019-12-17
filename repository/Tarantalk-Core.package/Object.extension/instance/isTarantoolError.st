@@ -1,0 +1,3 @@
+*Tarantalk-Core
+isTarantoolError
+	^false

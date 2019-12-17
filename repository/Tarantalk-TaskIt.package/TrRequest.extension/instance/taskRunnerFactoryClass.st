@@ -1,0 +1,3 @@
+*Tarantalk-TaskIt
+taskRunnerFactoryClass
+	^TrTaskRunnerFactory

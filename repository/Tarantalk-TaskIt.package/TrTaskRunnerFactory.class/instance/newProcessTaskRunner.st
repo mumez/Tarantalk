@@ -1,0 +1,3 @@
+factory
+newProcessTaskRunner
+	^ TKTNewProcessTaskRunner new

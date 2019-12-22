@@ -1,3 +1,7 @@
 *Tarantalk-TaskIt
 asTask
-	^ TKTTask valuable: [self proxy]
+	^ TKTTask valuable: [ | proxy |
+		proxy := self proxy.
+		proxy value.
+		proxy
+	]

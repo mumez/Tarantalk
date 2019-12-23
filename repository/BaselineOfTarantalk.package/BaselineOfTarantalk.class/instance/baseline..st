@@ -11,7 +11,7 @@ baseline: spec
 			package: 'Tarantalk-Objects';
 			package: 'Tarantalk-Tests';
 			package: 'Tarantalk-TaskIt' with: [spec requires: #('Tarantalk-Core' 'Tarantalk-Objects' 'TaskIt')];
-			package: 'Tarantalk-TaskIt-Tests' with: [spec requires: #('Tarantalk-TaskIt')].
+			package: 'Tarantalk-TaskIt-Tests' with: [spec requires: #('Tarantalk-TaskIt' 'Tarantalk-Tests')].
 		spec 
 			group: 'default' with: #('Core' 'Tests' );
 			group: 'extra'  with: #('Task' 'Task-Tests');

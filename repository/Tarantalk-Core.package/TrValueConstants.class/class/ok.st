@@ -1,3 +1,3 @@
 response codes
 ok
-	^16r00
+	^0

@@ -1,7 +1,6 @@
 {
 	"instance" : {
 		"stick:" : "MasashiUmezawa 7/7/2017 14:16",
-		"executeSql:bindings:" : "MasashiUmezawa 11/9/2019 23:20",
 		"syncValueClass" : "MasashiUmezawa 9/25/2017 13:02",
 		"portableUtil" : "MasashiUmezawa 10/23/2016 22:25",
 		"eval:arguments:" : "MasashiUmezawa 10/17/2016 00:08",
@@ -28,8 +27,8 @@
 		"ping" : "MasashiUmezawa 9/24/2016 23:48",
 		"returnedValue" : "MasashiUmezawa 6/24/2017 00:23",
 		"ifDone:" : "MasashiUmezawa 10/2/2016 23:17",
-		"handleResponse:" : "MasashiUmezawa 10/2/2016 23:04",
 		"syncId" : "MasashiUmezawa 9/18/2016 22:51",
+		"handleResponse:" : "MasashiUmezawa 10/2/2016 23:04",
 		"type:" : "MasashiUmezawa 9/18/2016 22:52",
 		"upsertAt:values:performing:" : "MasashiUmezawa 10/2/2016 00:31",
 		"successBlock" : "MasashiUmezawa 6/24/2017 00:23",

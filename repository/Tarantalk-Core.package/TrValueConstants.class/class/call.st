@@ -1,3 +1,3 @@
 command codes
 call
-	^10
+	^16r10

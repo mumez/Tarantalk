@@ -15,7 +15,7 @@
 		"fromArray:" : "MasashiUmezawa 10/16/2016 15:21",
 		"ensureSecondaryIndexSetting:" : "MasashiUmezawa 6/24/2017 01:33",
 		"asyncCreateIndexNamed:setting:" : "MasashiUmezawa 11/8/2016 23:39",
-		"at:putValues:" : "MasashiUmezawa 6/24/2017 01:09",
+		"at:putValues:" : "MasashiUmezawa 12/19/2019 18:39",
 		"replace:" : "MasashiUmezawa 10/16/2016 23:05",
 		"ensureIndexNamed:setting:" : "MasashiUmezawa 6/23/2019 23:55",
 		"asyncCreateIndexNamed:" : "MasashiUmezawa 11/6/2016 22:17",
@@ -92,7 +92,7 @@
 		"indexFromDictionary:" : "MasashiUmezawa 11/9/2016 23:40",
 		"name" : "MasashiUmezawa 10/16/2016 14:55",
 		"deleteHaving:" : "MasashiUmezawa 10/16/2016 23:25",
-		"at:put:" : "MasashiUmezawa 11/10/2016 00:18"
+		"at:put:" : "MasashiUmezawa 12/19/2019 18:39"
 	},
 	"class" : { }
 }

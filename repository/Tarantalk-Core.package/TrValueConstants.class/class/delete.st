@@ -1,3 +1,3 @@
 command codes
 delete
-	^16r05
+	^5

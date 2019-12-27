@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TrOptionsBuilder",
+	"category" : "Tarantalk-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TrSequenceOptionsBuilder",
+	"type" : "normal"
+}

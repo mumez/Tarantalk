@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "TrObject",
+	"category" : "Tarantalk-Objects",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"name",
+		"step",
+		"min",
+		"max",
+		"cache",
+		"uid",
+		"cycle",
+		"start"
+	],
+	"name" : "TrSequence",
+	"type" : "normal"
+}

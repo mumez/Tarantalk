@@ -2,4 +2,4 @@ actions
 set: previousValue
 	^ self
 		evalWithReturn: (self fullMethodName: 'set(...)')
-		arguments: (Array with: (self ensureArray: previousValue))
+		arguments: (Array with: previousValue)

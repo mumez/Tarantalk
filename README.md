@@ -114,10 +114,6 @@ tarantalk call: 'bookmarkUrls'.
   " => #(#('http://pharo.org' 'http://files.pharo.org/books/' 'http://www.smalltalk-users.jp' 'https://tarantool.org'))"
 ```
 
-### SQL
-
-Please see [SQL.md](doc/SQL/md).
-
 ### Releasing
 
 ```Smalltalk
@@ -127,6 +123,9 @@ tarantalk release.
 
 TrTarantalk releaseAll.
 ```
+## SQL
+
+Please see [SQL.md](./doc/SQL.md).
 
 ## Performance
 

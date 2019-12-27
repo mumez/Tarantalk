@@ -12,7 +12,10 @@ Enjoy its chemical effects on such a dynamic environment.
 You can install via Catalog Browser, or just do it:
 
 ```Smalltalk
-Metacello new  baseline: 'Tarantalk';  repository: 'github://mumez/Tarantalk/repository';  load.
+Metacello new
+  baseline: 'Tarantalk';
+  repository: 'github://mumez/Tarantalk/repository';
+  load.
 ```
 
 ## Settings ##
@@ -21,8 +24,8 @@ Tarantool supports authentication and fine-grained access control. So, you shoul
 
 ```Lua
 box.cfg{listen = 3301}
-box.schema.user.create('taran', {password = 'talk'})
-box.schema.user.grant('taran', 'read,write,execute', 'universe')
+box.schema.user.create('taran', {password = 'talk', if_not_exists=true}})
+box.schema.user.grant('taran', 'read,write,execute,create,drop', 'universe', nil, {if_not_exists=true})
 ```
 
 ## Connecting
@@ -103,13 +106,17 @@ function bookmarkUrls()
 	end
 	return urls
 end
-box.schema.func.create('bookmarkUrls')
+box.schema.func.create('bookmarkUrls', {if_not_exists=true})
 ```
 
 ```Smalltalk
 tarantalk call: 'bookmarkUrls'.
   " => #(#('http://pharo.org' 'http://files.pharo.org/books/' 'http://www.smalltalk-users.jp' 'https://tarantool.org'))"
 ```
+
+### SQL
+
+Please see [SQL.md](doc/SQL/md).
 
 ### Releasing
 

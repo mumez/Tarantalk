@@ -1,15 +1,28 @@
 testing
 testUseSequence
-	| talk seq |
+	| talk space primarySeq primaryIndex tuples |
 	talk := self tarantalk.
-	seq := talk ensureSequenceNamed: 'trt_testUseSequence' setting: [:opts |
-		opts min: -6; max: -1; step: -3; start: -2; cyclic 
-	].
-	[ 
-	self assert: seq next equals: -2.
-	self assert: seq next equals: -5. "-2 + (-3) == -5."
-	self assert: seq next equals: -1. "-5 + (-3) < -6, which is overflow, causing cycle, and max == -1"
-	self assert: seq next equals: -4.
-	] ensure: [  
-	seq drop sync
+	space := talk ensureSpaceNamed: 'trt_testUseSequence'.
+	primarySeq := talk ensureSequenceNamed: 'trt_testUseSequence_Seq1' setting: [:opts | opts start: 10].
+	primaryIndex := space ensurePrimaryIndexSetting: [:opts | opts sequence: primarySeq].
+	
+	[
+	space truncate sync.
+	
+	space insert: {nil. 'one'}.
+	space insert: {nil. 'two'}.
+	space insert: {nil. 'three'}.
+	
+	tuples := primaryIndex selectAll.	
+		
+	self assert: tuples size equals: 3.
+	self assert: tuples first equals: #(10 'one').
+	self assert: tuples second equals: #(11 'two').
+	self assert: tuples third equals: #(12 'three').
+	
+	] ensure: [ 
+	(primaryIndex alterSetting: [ :opts | opts sequenceOff]) sync.
+	primarySeq drop sync.
+	space drop sync
 	]
+	

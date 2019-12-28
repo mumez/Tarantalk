@@ -1,11 +1,14 @@
 {
 	"instance" : {
+		"sequences" : "MasashiUmezawa 12/28/2019 23:39",
+		"ensureSequenceNamed:setting:" : "MasashiUmezawa 12/26/2019 19:52",
 		"trySwitchUriOf:" : "MasashiUmezawa 4/15/2017 01:47",
 		"ensureTempSpaceNamed:" : "MasashiUmezawa 9/17/2017 22:47",
 		"schema" : "MasashiUmezawa 11/9/2016 23:40",
 		"spaces" : "MasashiUmezawa 11/5/2016 23:59",
 		"ensureSpaceNamed:setting:" : "MasashiUmezawa 9/17/2017 22:49",
 		"unregister" : "MasashiUmezawa 11/8/2016 22:37",
+		"sequenceClass" : "MasashiUmezawa 12/26/2019 19:23",
 		"initialize:setting:" : "MasashiUmezawa 9/8/2017 16:18",
 		"waitAuthCompleted" : "MasashiUmezawa 6/24/2017 00:26",
 		"info" : "MasashiUmezawa 8/4/2017 13:31",
@@ -19,6 +22,7 @@
 		"release" : "MasashiUmezawa 9/17/2017 22:28",
 		"initialize:" : "MasashiUmezawa 4/13/2017 17:09",
 		"indexClass" : "MasashiUmezawa 11/5/2016 23:55",
+		"ensureSequenceNamed:" : "MasashiUmezawa 12/26/2019 19:53",
 		"printOn:" : "MasashiUmezawa 11/6/2016 16:23",
 		"stickClass" : "MasashiUmezawa 11/5/2016 23:55",
 		"userSpaces" : "MasashiUmezawa 11/5/2016 23:58"

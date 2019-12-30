@@ -1,3 +1,3 @@
 *Tarantalk-TaskIt
 schedule: anExecutor
-	^self asTask schedule: anExecutor
+	^self schedule: anExecutor for: self waitTimeoutSeconds

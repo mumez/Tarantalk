@@ -127,6 +127,10 @@ TrTarantalk releaseAll.
 
 Please see [SQL.md](./doc/SQL.md).
 
+## TaskIt integration
+
+Please see [TaskIt-integration.md](./doc/TaskIt-integration.md).
+
 ## Performance
 
 I tried a simple micro benchmark and compared the results with my Redis client - [RediStick](<http://smalltalkhub.com/#!/~MasashiUmezawa/RediStick> "RediStick").

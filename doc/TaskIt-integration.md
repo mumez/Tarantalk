@@ -1,12 +1,11 @@
-TaskIt integration
-========
+# TaskIt integration
 
 Tarantalk async API feature can be leveragted much by integrating with [TaskIt](https://github.com/sbragagnolo/taskit).
-You can orchestrate async requests with combinable #future sends.
+You can orchestrate async requests with combinable `#future` sends.
 
-## Installation ##
+## Installation
 
-Please load 'Tarantalk-TaskIt' package for enabling TaskIt integration, that is included in 'extra' package group.
+Please load 'Tarantalk-TaskIt' package for enabling TaskIt integration, that is included in the 'extra' package group.
 
 ```smalltalk
 Metacello new
@@ -16,47 +15,48 @@ Metacello new
 ```
 [TaskIt](https://github.com/sbragagnolo/taskit) is required and will be installed automatically.
 
-## Using future sends ##
+## Using future sends
 
-First, let's look back the normal async API.
+First, let's look back at the regular async API.
 By default, Tarantalk accepts async requests callback by `#ifDone:ifFailed:`.
 
 ```smalltalk
 talk := TrTarantalk connect: 'taran:talk@localhost:3301'.
-talk executeSql: 'drop table if exists prog_languages'.
-talk executeSql: 'create table prog_languages (id integer primary key, name varchar(100), description varchar(100))'.
+talk executeSql: 'drop table if exists programming_languages'.
+talk executeSql: 'create table programming_languages (id integer primary key, name varchar(100), description varchar(100))'.
 
-talk executeSql: 'insert into prog_languages values (?, ?, ?)' values: {1. 'Smalltalk'. 'cool'}.
-talk executeSql: 'insert into prog_languages values (?, ?, ?)' values: {2. 'Lua'. 'hot'}.
+talk executeSql: 'insert into programming_languages values (?, ?, ?)' values: {1. 'Smalltalk'. 'cool'}.
+talk executeSql: 'insert into programming_languages values (?, ?, ?)' values: {2. 'Lua'. 'hot'}.
 
-(talk asyncExecuteSql: 'select * from prog_languages')
-	ifDone: [:ret | Transcript cr; show: ret ] ifFailed: [:error | error pass].	
+(talk asyncExecuteSql: 'select * from programming_languages')
+	ifDone: [:ret | Transcript cr; show: ret ] ifFailed: [:error | error pass].
 ```
 
 However, in `#ifDone:ifFailed:`, you can only register one success callback and one failure callback respectively.
 
-But in `#future` sends, you can register multiple success/failure callbacks.
+In `#future` sends, you can register multiple success/failure callbacks.
 
 ```smalltalk
-future := (talk asyncExecuteSql: 'select * from prog_languages') future.
+future := (talk asyncExecuteSql: 'select * from programming_languages') future.
 future
 	onSuccessDo: [:ret | Transcript cr; show: ret ];
 	onSuccessDo: [:ret | ret metadata inspect ];
-	onFailureDo: [:error | error inspect];	
+	onFailureDo: [:error | error inspect];
 	onFailureDo: [:error | error pass].
 ```
 
-## Combining future sends ##
+## Combining future sends
 
 TaskIt provides [future combinators](https://github.com/sbragagnolo/taskit#future-combinators), so that you can process complex async results in a fluent way.
 
 `#andThen:` is the most basic one. You can chain async executions sequentially.
 
 ```smalltalk
-((talk asyncExecuteSql: 'select * from prog_languages where name = ?' values: {'Smalltalk'}) future
+((talk asyncExecuteSql: 'select * from programming_languages where name = ?' values: {'Smalltalk'}) future
 	andThen: [:rows | 1 seconds wait. Transcript cr; show: rows]) andThen: [:v | Transcript cr; show: v first]. "eventually executed"
-Transcript cr; show: (talk executeSql: 'select * from prog_languages'). "immediately executed"
+Transcript cr; show: (talk executeSql: 'select * from programming_languages'). "immediately executed"
 ```
+
 In this case, you will see the last sync query result immediately. One second later, async query result will be shown on Transcript.
 
 ```smalltalk
@@ -69,12 +69,12 @@ The following is a complicated example.
 The results of the two asynchronous queries are collected (mapped) by `#collect:` and combined into one future by `#zip:`.
 
 ```smalltalk
-(((talk asyncExecuteSql: 'select * from prog_languages where name = ?' values: {'Smalltalk'}) future collect: [:rows | rows first])
-	zip: ((talk asyncExecuteSql: 'select * from prog_languages where name = ?' values: {'Lua'}) future collect: [:rows | rows first]))
+(((talk asyncExecuteSql: 'select * from programming_languages where name = ?' values: {'Smalltalk'}) future collect: [:rows | rows first])
+	zip: ((talk asyncExecuteSql: 'select * from programming_languages where name = ?' values: {'Lua'}) future collect: [:rows | rows first]))
 	andThen: [ :zippedRows | Transcript cr; show: (zippedRows collect: [:each | each second -> each third]) asDictionary ].
 ```
 
-As a result, you will see a merged Dictionary on Transcript. 
+As a result, you will see a merged Dictionary in Transcript.
 
 ```smalltalk
 a Dictionary('Lua'->'hot' 'Smalltalk'->'cool' )
@@ -82,19 +82,19 @@ a Dictionary('Lua'->'hot' 'Smalltalk'->'cool' )
 
 ## Setting task runners  ##
 
-TaskIt has the notion of [Task Runners](https://github.com/sbragagnolo/taskit#task-runners-controlling-how-tasks-are-executed) for customizing how scheduled tasks will be eventually executed. 
+TaskIt has the notion of [Task Runners](https://github.com/sbragagnolo/taskit#task-runners-controlling-how-tasks-are-executed) for customizing how scheduled tasks will be eventually executed.
 
-Simply, you can specify the TaskRunner by passing the `furure:` argument. In our integration, `TrTaskRunnerFactory` provides a handly way for creating preset runners. 
+Simply, you can specify the TaskRunner by passing the `furure:` argument. In our integration, `TrTaskRunnerFactory` provides a handly way for creating preset runners.
 
 ```smalltalk
-((talk asyncExecuteSql: 'select * from prog_languages') future: TrTaskRunnerFactory defaultCommonQueueWorkerPool)
+((talk asyncExecuteSql: 'select * from programming_languages') future: TrTaskRunnerFactory defaultCommonQueueWorkerPool)
 	andThen: [ :ret | Transcript cr; show: ret ].
 ```
 
 Actually, if you do not pass the argument, `TrTaskRunnerFactory defaultCommonQueueWorkerPool` is our default task runner. So, the following is the same as above:
 
 ```smalltalk
-((talk asyncExecuteSql: 'select * from prog_languages') future)
+((talk asyncExecuteSql: 'select * from programming_languages') future)
 	andThen: [ :ret | Transcript cr; show: ret ].
 ```
 
@@ -102,7 +102,7 @@ The default setting can be overwritten for each Tarantalk connection basis by us
 
 ```smalltalk
 talk settings taskRunnerType: #workerPool.
-((talk asyncExecuteSql: 'select * from prog_languages') future)
+((talk asyncExecuteSql: 'select * from programming_languages') future)
 	andThen: [ :ret | Transcript cr; show: ret ].
 ```
 
@@ -111,8 +111,9 @@ In this case, `TrTaskRunnerFactory defaultWorkerPool` is implicitly used in `fut
 If you set `#newProcess`:
 
 ```smalltalk
-talk settings taskRunnerType: #workerPool.
+talk settings taskRunnerType: #newProcess.
 ```
+
 Then, `a TKTNewProcessTaskRunner` will be a default runner for the Tarantalk connection.
 
 Supported symbols are currently:

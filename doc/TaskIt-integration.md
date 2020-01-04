@@ -71,7 +71,7 @@ The results of the two asynchronous queries are collected (mapped) by `#collect:
 ```smalltalk
 (((talk asyncExecuteSql: 'select * from programming_languages where name = ?' values: {'Smalltalk'}) future collect: [:rows | rows first])
 	zip: ((talk asyncExecuteSql: 'select * from programming_languages where name = ?' values: {'Lua'}) future collect: [:rows | rows first]))
-	andThen: [ :zippedRows | Transcript cr; show: (zippedRows collect: [:each | each second -> each third]) asDictionary ].
+		andThen: [ :zippedRows | Transcript cr; show: (zippedRows collect: [:each | each second -> each third]) asDictionary ].
 ```
 
 As a result, you will see a merged Dictionary in Transcript.
@@ -91,7 +91,7 @@ Simply, you can specify the TaskRunner by passing the `furure:` argument. In our
 	andThen: [ :ret | Transcript cr; show: ret ].
 ```
 
-Actually, if you do not pass the argument, `TrTaskRunnerFactory defaultCommonQueueWorkerPool` is our default task runner. So, the following is the same as above:
+Actually, if you do not pass the argument, `TrTaskRunnerFactory defaultCommonQueueWorkerPool` instance will be used as a task runner by default. So, the following is the same as above:
 
 ```smalltalk
 ((talk asyncExecuteSql: 'select * from programming_languages') future)
@@ -106,19 +106,19 @@ talk settings taskRunnerType: #workerPool.
 	andThen: [ :ret | Transcript cr; show: ret ].
 ```
 
-In this case, `TrTaskRunnerFactory defaultWorkerPool` is implicitly used in `future` sends.
+In this case, `TrTaskRunnerFactory defaultWorkerPool` instance is implicitly used in `#future` sends.
 
-If you set `#newProcess`:
+If you pass `#newProcess` as the argument:
 
 ```smalltalk
 talk settings taskRunnerType: #newProcess.
 ```
 
-Then, `a TKTNewProcessTaskRunner` will be a default runner for the Tarantalk connection.
+Then, `a TKTNewProcessTaskRunner` will be a default runner for this Tarantalk connection.
 
-Supported symbols are currently:
+The currently supported symbols are:
 
-- #newProcess
-- #workerPool
-- #commonQueueWorkerPool
-- #default (same as the #commonQueueWorkerPool)
+- `#newProcess`
+- `#workerPool`
+- `#commonQueueWorkerPool`
+- `#default` (same as the `#commonQueueWorkerPool`)

@@ -1,7 +1,8 @@
 *Tarantalk-TaskIt
 asTaskFor: waitTimeoutSeconds
-	^ TKTTask valuable: [ | proxy val |
+	^ TKTTask valuable: [ | proxy |
 		proxy := self proxyFor: waitTimeoutSeconds.
-		(val := proxy value) isError ifTrue: [ val signal ].
+		proxy value.
+		proxy isError ifTrue: [ proxy signal ].
 		proxy
 	]

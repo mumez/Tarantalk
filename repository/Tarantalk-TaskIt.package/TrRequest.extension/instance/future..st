@@ -1,3 +1,3 @@
 *Tarantalk-TaskIt
 future: anExecutor
-	^self asTask future: anExecutor
+	^self future: anExecutor for: self waitTimeoutSeconds

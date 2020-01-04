@@ -41,8 +41,8 @@ future := (talk asyncExecuteSql: 'select * from programming_languages') future.
 future
 	onSuccessDo: [:ret | Transcript cr; show: ret ];
 	onSuccessDo: [:ret | ret metadata inspect ];
-	onFailureDo: [:error | error inspect];
-	onFailureDo: [:error | error pass].
+	onFailureDo: [:error | error signal];
+	onFailureDo: [:error | error inspect].
 ```
 
 ## Combining future sends

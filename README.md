@@ -24,7 +24,7 @@ Tarantool supports authentication and fine-grained access control. So, you shoul
 
 ```Lua
 box.cfg{listen = 3301}
-box.schema.user.create('taran', {password = 'talk', if_not_exists=true}})
+box.schema.user.create('taran', {password='talk', if_not_exists=true})
 box.schema.user.grant('taran', 'read,write,execute,create,drop', 'universe', nil, {if_not_exists=true})
 ```
 
